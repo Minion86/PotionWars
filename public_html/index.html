@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PocimasWars Widget</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/animate.css" />
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+        <link rel="stylesheet" type="text/css" href="assets/nprogress/nprogress.css" />
+        <link rel="stylesheet" type="text/css" href="assets/style.css?ver=1.0" />
+        <link rel="stylesheet" type="text/css" href="assets/app-responsive.css?ver=1.0" />
+        <link rel="stylesheet" type="text/css" href="assets/sweetalert/sweetalert2.css" />
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="login-wrap rounded">
+
+                <h2 class="text-center">Pócimas Wars</h2>
+
+                <form id="frm" class="frm rounded3" method="POST" onsubmit="return false;">
+                    <div class="inner">
+
+
+                        <div class="top20">
+                            <select data-placeholder="Escoja una poción..."  name="pocion" id="pocion"  class="select-data">
+                                <option value="Poción roja">Poción roja</option>
+                                <option value="Poción azul">Poción azul</option>
+                                <option value="Poción verde">Poción verde</option>
+                                <option value="Poción amarilla">Poción amarilla</option>
+                                <option value="Poción gris">Poción gris</option> 
+                            </select>
+                            <a  id="agregar" name="agregar" class="yellow-button large rounded3 relative">
+                                Agregar Poción <i class="ion-ios-arrow-thin-right"></i>
+                            </a>
+                        </div>
+                        <div class="top20" id="pocimasList">
+                        </div>
+
+                        <div class="top20">
+                            <a id="calcular" name="calcular" class="yellow-button large rounded3 relative">
+                                Calcular <i class="ion-ios-arrow-thin-right"></i>
+                            </a>
+                        </div>
+                        <div class="top20" id="respuesta">
+                        </div>
+
+                    </div> <!--inner-->
+
+
+
+                </form> <!--login-->
+
+
+                <hr/>
+
+
+            </div> <!--login-wrap-->
+            <div id='calendar'></div>
+        </div> <!--container-->
+
+        <script type="text/javascript" src="assets/jQuery-3.4.1.js"></script>
+        <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/nprogress/nprogress.js"></script>
+        <script type="text/javascript" src="assets/sweetalert/sweetalert2.js"></script>
+
+        <script type="text/javascript" src="assets/app.js?ver=1.0"></script>
+    </body>
+
+
+</html>
